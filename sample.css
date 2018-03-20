@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* Jessica's CSS Document.
+NOTE: You can replace my name with your name - this part up here is a CSS comment and is not telling the web browser to change the appearance of your html page(s). You could also put other things here, like the colors you picked for a quick reference. I like to do that so I can easily copy and paste the hex numbers when I need them. For Example:
+dark purple: #351431
+ruby: #8B1E3F
+pastel gray: #C9CEBD
+ash gray: #B2BCAA
+queen blue: #41658A
+*/
+
+
+
+/* the html element below is the "background" of your page */
+html {
+background-color: #C9CEBD;
+}
+
+body {
+	width: 761px;
+	margin: 1.5em auto; /* this + a defined width, centers the body content */
+	border-color: #303;
+	border-style: solid;
+	border-width: 10px;
+	padding: 50px;
+	background-color: #B2BCAA;
+}
+
+h1 {
+	text-align: center;
+	background-color: #3CF;
+	color: #351431;
+}
+
+h2 {
+	padding: 7px;
+	color: #351431;
+}
+
+h3 {
+	color: #351431;
+}
+
+/* IMPORTANT: this will put a border around ALL images - so the banner AND the image of you. You may want to remove the border or change it! */
+img {
+	border-color: #8B1E3F;
+	border-style: dotted;
+	border-width: 5px;
+}
+
+
+/* The code below here alters your links */
+a {
+  font-weight: bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #8B1E3F;
+}
+
+.banner {
+	width: 400px;
+	height: auto;
+}
+.portrait {
+	height: 100px;
+	width:100px;
+}
